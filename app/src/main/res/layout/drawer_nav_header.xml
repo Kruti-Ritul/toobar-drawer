@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/img"
+        android:contentDescription="img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:text="Ritul"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:textColor="@color/material_on_surface_emphasis_medium"
+        android:text="ritul.pravash@gmail.com" />
+
+
+</LinearLayout>
